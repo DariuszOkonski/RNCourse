@@ -17,6 +17,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   appContainer: {
+    flex: 1,
     backgroundColor: "yellow",
     paddingTop: 50,
     paddingHorizontal: 16,
@@ -27,7 +28,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    paddingBottom: 24,
+    marginBottom: 24,
     borderBottomWidth: 1,
     borderBottomColor: "#ccc",
   },
@@ -40,6 +41,6 @@ const styles = StyleSheet.create({
   },
   goalsContainer: {
     backgroundColor: "red",
-    flex: 3,
+    flex: 5,
   },
 });
