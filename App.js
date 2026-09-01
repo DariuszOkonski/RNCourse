@@ -35,7 +35,7 @@ export default function App() {
       </View>
 
       <View style={styles.goalsContainer}>
-        <ScrollView>
+        <ScrollView alwaysBounceVertical={true}>
           {courseGoals.map((goal, index) => (
             <View style={styles.goalItem} key={index}>
               <Text style={styles.goalText}>{goal}</Text>
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
   },
   inputContainer: {
     flex: 1,
-    backgroundColor: "green",
+    // backgroundColor: "green",
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
